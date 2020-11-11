@@ -20,7 +20,7 @@ public class AppTest
 //		WebDriver driver = getChromeCapabilities();
 		WebDriver driver =  ap.getChromeCapabilities();
 		// driver.get("https://localhost:8081/");
-		driver.get("https://localhost:8081/"); 
+		driver.get("https://www.google.co.in/?gws_rd=ssl"); 
 		//we expect the title “Google “ should be present 
 		String Expectedtitle = "Google";
 		//it will fetch the actual title 

@@ -17,8 +17,8 @@ public class App
 	public  WebDriver getChromeCapabilities() {
 		ChromeOptions option = new ChromeOptions();
 		option.addArguments("no-sandbox");
-//		option.addArguments("--headless");
-		option.addArguments("--disable-dev-shm-usage");
+		option.addArguments("--headless");
+		option.addArguments("--disable-extensions");
 		WebDriverManager.chromedriver().setup();
 		
 		WebDriver driver = new ChromeDriver(option);
